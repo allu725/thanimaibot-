@@ -73,20 +73,20 @@ telegram Group management with lots of features.
 buttons = [
     [
         InlineKeyboardButton(
-            text="Aᴅᴅ Mᴇ 🥰", url="t.me/FINAL_STRIKER_BOT?startgroup=true"),
+            text="pvt group", url="t.me/FINAL_STRIKER_BOT?startgroup=faile"),
     ],
     [
         InlineKeyboardButton(text="Cᴏᴍᴍᴀɴᴅs ❔", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="Dᴇᴠʟᴏᴘᴇʀ🤓", url="https://t.me/TheTelegrampro"),
+        InlineKeyboardButton(text="Dᴇᴠʟᴏᴘᴇʀ🤓", url="https://t.me/optimus_prime_althaf"),
     ],
     [
-        InlineKeyboardButton(text="❤️𝕭𝖔𝖙 𝖀𝖕𝖉𝖆𝖙𝖊$💙", url="t.me/Thanimaibots"),
-        InlineKeyboardButton(text="✨ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭✨", url="t.me/Thanimaisupport"),
+        InlineKeyboardButton(text="❤️𝕭𝖔𝖙 𝖀𝖕𝖉𝖆𝖙𝖊$💙", url="https://t.me/optimus_prime_althaf"),
+        InlineKeyboardButton(text="✨ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭✨", url="https://t.me/Aliport1"),
     ],
     [
-        InlineKeyboardButton(text="⚠️𝗦𝗼𝘂𝗿𝗰𝗲⚠️🖥️", callback_data="source_"
+        InlineKeyboardButton(text="⚠️𝗦𝗼𝘂𝗿𝗰𝗲⚠️🖥️", callback_data="soure_"
         ),
     ],
 ]
@@ -227,10 +227,10 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/thanimaisupport")
+                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Aliport1")
                   ],
                   [
-                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/thanimaibots")
+                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/Aliport1")
                   ]
                 ]
             ),
