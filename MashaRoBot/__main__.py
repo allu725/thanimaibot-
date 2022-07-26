@@ -101,8 +101,8 @@ Commands available:
 × /help: Give's you this message.
 All commands can either be used with / OR !."""
 
-START_IMG = "https://telegra.ph/file/91d3a167481da71ab5b44.mp4"
-MASHA_IMG = "https://telegra.ph/file/7aba4b67279c844454b4c.jpg"
+START_IMG = "https://telegra.ph/file/8f19bb159b22020042da5.jpg"
+MASHA_IMG = "https://telegra.ph/file/8f19bb159b22020042da5.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
@@ -365,7 +365,7 @@ def Masha_about_callback(update, context):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *MASHA*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *bumblebeev2*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -400,8 +400,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Lonely king*
-                 \nMy source code is private  [support](t.me/thanimaisupport) .""",
+            text=""" Hi..🤗 I'm *bumblebeev2*
+                 \nMy source code is private  [support](t.me/optimus_prime_althaf) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
